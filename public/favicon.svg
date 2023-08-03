@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        font-family: Syncopate-Bold, Syncopate;
+        font-size: 20.74px;
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        fill: #0b1812;
+      }
+
+      .cls-4 {
+        fill: #97aad7;
+      }
+    </style>
+  </defs>
+  <rect class="cls-3" x="-7.23" width="1143.26" height="1097.8"/>
+  <g>
+    <rect class="cls-1" x="470.47" y="389" width="16.48" height="16.48" transform="translate(957.42 794.48) rotate(-180)"/>
+    <path class="cls-4" d="m485.51,492.08c-19.92,0-35.33-16.06-35.33-35.37v-67.66h-16.52l.03,67.74c0,26.95,21.17,51.77,51.77,51.77h28.99v-16.49h-28.94Z"/>
+    <polygon class="cls-4" points="497.96 389.08 536.76 389.08 536.76 405.56 514.44 405.56 514.44 457.42 497.96 457.42 497.96 389.08"/>
+    <text class="cls-2" transform="translate(487.21 485.93)"><tspan x="0" y="0">Advisors</tspan></text>
+  </g>
+</svg>

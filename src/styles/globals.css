@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;800&family=Montserrat:wght@300;600;900&family=Noto+Sans+HK:wght@100;400&family=Quicksand:wght@300&family=Syncopate:wght@400;700&family=Urbanist:wght@600&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  font-style: normal;
+  font-family: "Montserrat", sans-serif;
+}
+
