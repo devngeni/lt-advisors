@@ -40,6 +40,7 @@ export const Title = styled.h1`
   line-height: 164.8%; /* 2.472rem */
   letter-spacing: 0.075rem;
   text-transform: capitalize;
+  font-family: "FSP DEMO -Rc Grtsk xtrWd", sans-serif;
   @media (min-width: 768px) {
     font-size: 3.625rem;
     line-height: 164.8%;
@@ -53,20 +54,41 @@ export const TextWrapper = styled.div`
 `;
 export const Text = styled.p`
   color: #fff;
-  font-family: Syncopate;
+  font-family: "Montserrat", sans-serif;
   font-size: 0.5625rem;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   line-height: normal;
   display: flex;
   align-items: center;
   gap: 0.1rem;
   @media (min-width: 768px) {
-    font-size: 1.325rem;
+    font-size: 1rem;
     gap: 0.5rem;
   }
 `;
-
+export const TwitterText = styled.div`
+  &:hover {
+    svg {
+      fill: #fff;
+    }
+  }
+  a {
+    color: #fff;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    flex-direction: row;
+    gap: 0.1rem;
+    align-items: center;
+    @media (min-width: 768px) {
+      font-size: 1rem;
+      gap: 0.5rem;
+    }
+  }
+`;
 export const TextContainer = styled.div`
   display: flex;
   flex-direction: row;

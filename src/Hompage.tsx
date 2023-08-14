@@ -7,6 +7,7 @@ import {
   TextContainer,
   TextWrapper,
   Title,
+  TwitterText,
   Wrapper,
 } from "./styles/HomePage.Styled";
 import Link from "next/link";
@@ -21,20 +22,11 @@ export default function HomePage() {
         <Logo />
         <Title>Tech focused Investments in the Global South</Title>
         <TextWrapper>
-          <Link
-            href="https://twitter.com/ltadvisorsVC"
-            passHref
-            target="#"
-            style={{
-              cursor: "pointer",
-              textDecoration: "underline",
-              color: "#97AAD7",
-            }}
-          >
-            <Text>
+          <TwitterText>
+            <Link href="https://twitter.com/ltadvisorsVC" passHref target="#">
               Get in touch {isMobile ? <TwitterMobile /> : <Twitter />}
-            </Text>
-          </Link>
+            </Link>
+          </TwitterText>
           <TextContainer>
             <Text>
               Nairobi
