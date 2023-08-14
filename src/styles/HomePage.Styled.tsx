@@ -40,7 +40,7 @@ export const Title = styled.h1`
   line-height: 164.8%; /* 2.472rem */
   letter-spacing: 0.075rem;
   text-transform: capitalize;
-  font-family: "FSP DEMO -Rc Grtsk xtrWd", sans-serif;
+  font-family: "Fontspring-DEMO-rocgroteskextrawide-regular", sans-serif;
   @media (min-width: 768px) {
     font-size: 3.625rem;
     line-height: 164.8%;
