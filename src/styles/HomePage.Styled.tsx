@@ -75,17 +75,17 @@ export const TwitterText = styled.div`
   }
   a {
     color: #fff;
-    font-size: 1.375rem;
+    font-size: 0.5625rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     display: flex;
     flex-direction: row;
-    gap: 0.1rem;
+    gap: 0.38rem;
     align-items: center;
     @media (min-width: 768px) {
       font-size: 1rem;
-      gap: 0.5rem;
+      gap: 1.81rem;
     }
   }
 `;
