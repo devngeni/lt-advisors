@@ -34,25 +34,33 @@ export const Container = styled.div`
 
 export const Title = styled.h1`
   color: #97aad7;
-  font-size: 1.5rem;
+  font-size: clamp(
+    1.5rem,
+    calc(1.5rem + ((1vw - 0.1375rem) * 2.0238)),
+    3.625rem
+  );
   font-style: normal;
   font-weight: 600;
-  line-height: 164.8%; /* 2.472rem */
+  line-height: clamp(1.4, 1.648, 2);
   letter-spacing: 0.075rem;
   text-transform: capitalize;
   font-family: "Fontspring-DEMO-rocgroteskextrawide-regular", sans-serif;
+  width: 80vw;
+  @media (max-width: 300px) {
+    font-size: 1.2rem;
+  }
   @media (min-width: 768px) {
-    font-size: 3.625rem;
-    line-height: 164.8%;
-    width: 60%;
+    width: 60vw;
   }
 `;
+
 export const TextWrapper = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 `;
-export const Text = styled.p`
+export const Text = styled.div`
   color: #fff;
   font-family: "Montserrat", sans-serif;
   font-size: 0.5625rem;
@@ -75,7 +83,7 @@ export const TwitterText = styled.div`
   }
   a {
     color: #fff;
-    font-size: 0.5625rem;
+    font-size: clamp(0.5625rem, calc(0.5625rem + ((1vw - 0.1375rem) * 0.7738)), 1.375rem);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -84,7 +92,6 @@ export const TwitterText = styled.div`
     gap: 0.38rem;
     align-items: center;
     @media (min-width: 768px) {
-      font-size: 1rem;
       gap: 1.81rem;
     }
   }
